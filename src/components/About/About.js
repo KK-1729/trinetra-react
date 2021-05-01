@@ -33,7 +33,7 @@ export default class About extends React.Component {
                 <div className="row">
                     <nav className="navbar navbar-expand-lg" ref="nav">
                         <div className="nav-left col-lg-6">
-                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" /></Link>
+                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" alt="pic" /></Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -57,7 +57,7 @@ export default class About extends React.Component {
                     </nav>
                 </div>   
                 <div className="about">
-                    <img src={about_pic} className="about_pic" ref="h1" />
+                    <img src={about_pic} className="about_pic" ref="h1" alt="pic" />
                     <p className="about_text" ref="h2">
                         Trinetra enables people to navigate around their<br />
                         desktop, using only their eyes. This includes moving<br />

@@ -33,7 +33,7 @@ class Instructions extends React.Component {
                 <div className="row">
                     <nav className="navbar navbar-expand-lg" ref="nav">
                         <div className="nav-left col-lg-6">
-                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" /></Link>
+                            <Link to="/Home" className="navbar-brand"><img src={logo} className="logo" alt="pic" /></Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -57,7 +57,7 @@ class Instructions extends React.Component {
                     </nav>
                 </div>  
                 <div className="instructions">
-                <img src={ins_image} className="ins_img" ref="h1" />
+                <img src={ins_image} className="ins_img" ref="h1" alt="pic" />
                 <p className="ins_text" ref="h2">
                     Go to downloads section<br />
                     Python environment is <br /> 
