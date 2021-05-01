@@ -8,12 +8,6 @@ import sr from '../../ScrollReveal';
 
 class Instructions extends React.Component {
     componentDidMount = function() {
-        var animate = {
-            origin: 'left',
-            distance: '200px',
-            duration: 3000
-        }
-
         var animate1 = {
             delay: 3000
         }
@@ -22,7 +16,7 @@ class Instructions extends React.Component {
             delay: 1000
         }
 
-        sr.reveal(this.refs.h1, animate);
+        // sr.reveal(this.refs.h1, animate);
         sr.reveal(this.refs.h2, animate1);
         sr.reveal(this.refs.nav, animate2)
     }
